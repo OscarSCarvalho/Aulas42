@@ -43,14 +43,14 @@ def my_var():
  nulo = None  # Variável nula
 
 
- print("O tipo de x é:", X)
- print("O tipo de x é:", nome)
- print("O tipo de x é:", y)
- print("O tipo de x é:", ativo)
- print("O tipo de x é:", lista)
- print("O tipo de x é:", tupla)
- print("O tipo de x é:", conjunto)
- print("O tipo de x é:", dicionario)
- print("O tipo de x é:", nulo)
+ print("O tipo de x é:",(type)(X))
+ print("O tipo de x é:", (type)(nome))
+ print("O tipo de x é:", (type)(y))
+ print("O tipo de x é:", (type)(ativo))
+ print("O tipo de x é:", (type)(lista))
+ print("O tipo de x é:", (type)(tupla))
+ print("O tipo de x é:", (type)(conjunto))
+ print("O tipo de x é:", (type)(dicionario))
+ print("O tipo de x é:",(type) (nulo))
 
 my_var()
