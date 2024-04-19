@@ -1,0 +1,34 @@
+* Estilo para o título h1 */
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        /* Estilo para as habilidades */
+        .habilidades {
+            font-weight: bold;
+        }
+
+        /* Estilo para a tabela */
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(137, 159, 229);
+            width: 100%;
+        }
+
+        th, td, tr {
+           border: 3px solid rgb(137, 159, 229);
+            padding: 8px;
+            text-align: left;
+        }
+
+        /* Estilo para a célula inferior direita */
+        tr:last-child td:last-child {
+            border-color: #424242;
+        }
+
+         td, th {
+            text-align: center;
+        }
+
+      
